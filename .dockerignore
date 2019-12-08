@@ -1,0 +1,13 @@
+**/.idea
+**/.pytest_cache
+**/.DS_Store
+**/.git
+.gitignore
+.dockerignore
+*.md
+**/Reports
+**/IntakeRaw
+**/assets
+venv/
+**/__pycache__
+**/*.pyc

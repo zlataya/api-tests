@@ -1,0 +1,10 @@
+/.idea
+/.pytest_cache
+.DS_Store
+config-*.ini
+__pycache__
+**/*.pyc
+IntakeRaw/
+Reports/
+IOT_Intake/
+venv/

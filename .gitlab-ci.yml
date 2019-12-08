@@ -1,0 +1,6 @@
+docker:
+  image: dis-registry.schenker.sh/docker/gitlab-runner-dindjava:jdk-8
+  script:
+    - docker build -t $CI_REGISTRY_IMAGE:iot-intake-pytest .
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+    - docker push $CI_REGISTRY_IMAGE:iot-intake-pytest
