@@ -2,7 +2,7 @@ boto3==1.7.45
 configparser==3.5.0
 lxml==4.2.5
 psycopg2-binary==2.7.5
-py==1.5.4
+py==1.10.0
 pytest==3.6.3
 pytest-expect==1.1.0
 pytest-html==1.19.0
